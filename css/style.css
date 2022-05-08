@@ -41,7 +41,7 @@ header img {
 
 #texto {
     position: absolute;
-    width: 680px;
+    width: 550px;
     height: 48px;
     left: 240px;
     top: 168px;
@@ -57,7 +57,7 @@ header img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 205px;
+    padding: 0px 5px;
     position: absolute;
     width: 615px;
     height: 18px;
@@ -74,7 +74,7 @@ header img {
     position: absolute;
     width: 680px;
     height: 67px;
-    left: 240px;
+    left: 68px;
     top: 885px;
 }
 
