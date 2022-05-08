@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografar texto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="/img/alura.svg" alt="Logo Alura">
+        </div>
+        <div class="titulo">
+            <h1>Projeto encriptador de texto com Javascript Programa OneAlura</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea id="texto" cols="20" rows="6"></textarea>
+            <h6 class="informacao">Apenas letras minusculas e sem acentos</h6>
+            <div class="botoes">
+                <button class="encriptar" onclick="btCodificar()">Criptografar</button>
+                <button class="desCriptografar" onclick="btDecodificar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="inicio">
+                <div class="imagem">
+                    <img src="/img/High.svg" alt="lupa">
+                    <div>
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="segredo">
+                    <textarea cols="10" rows="15" id="textoCriptografado"></textarea>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Criado por Marta da Silva Souza</h3>
+        <h4>Projeto OneAlura - #challengerOneDecodificador</h4>
+    </footer>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
